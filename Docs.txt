@@ -22,5 +22,14 @@
 
 // First name (Invalid)
 
+// let Keyword
+// declare variable with let Keyword
+
+
+// block scope vs function scope (Coerd leter in this video)
+
 // Convention
 // Start with samll letter and use camelCase
+
+//  Declare Constants
+//  Const cannot change the value

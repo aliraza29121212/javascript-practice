@@ -1,0 +1,26 @@
+// intro to variables
+
+// Variable can store some information
+// We can use that information later
+// We can change that that information later
+
+// Rules for naming variables
+
+// you cannot start with number
+// example :-
+// 1value (Invalid)
+// value1 (Valid)
+
+// You can only use undersore _ or dollar symbol
+// first_name (Valid)
+// _firstname (Valid)
+
+// first$name (Valid)
+// $firstname (Valid)
+
+// You cannot use spaces
+
+// First name (Invalid)
+
+// Convention
+// Start with samll letter and use camelCase

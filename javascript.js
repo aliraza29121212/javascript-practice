@@ -221,7 +221,7 @@
 //console.log(typeof myNumber);
 
 // // // // // // // // // // // //
-// // // // // // // // // // // //===============> (11)
+// // // // // // // // // // // //===============> (12)
 // // // // // // // // // // // //
 
 // booleans & comparison operator
@@ -239,3 +239,71 @@
 // != vs !== Operator
 
 // console.log(num1 !== num2);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (14)
+// // // // // // // // // // // //
+
+// if else condition
+
+// let age = 17;
+
+// if (age >= 18) {
+//   console.log("User Can play Game");
+// } else {
+//   console.log("user Cannot play Game");
+// }
+
+// let num = 13;
+// if (num % 2 === 0) {
+//   console.log("even");
+// } else {
+//   console.log("Odd");
+// }
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (13)
+// // // // // // // // // // // //
+
+// Falsyy Values
+
+// 1) false
+// 2) ""
+// 3) null
+// 4) undefine
+// 5) 0
+
+// Truthly Values
+
+// 1) "abc"
+// 2) 1, -1
+
+// let firstName = "Ali raza";
+
+// if (firstName) {
+//   console.log(firstName);
+// } else {
+//   console.log("FirstName is Kinda Empty");
+// }
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (15)
+// // // // // // // // // // // //
+
+//Ternary Operator
+
+// let age = 15;
+// let drink;
+
+// if (age >= 5) {
+//   drink = "coffee";
+// } else {
+//   drink = "milk";
+// }
+// console.log(drink);
+
+//Ternary Operator (Use)
+
+// let age = 13;
+// let drink = age >= 5 ? "coffee" : "milk";
+// console.log(drink);

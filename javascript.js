@@ -307,3 +307,51 @@
 // let age = 13;
 // let drink = age >= 5 ? "coffee" : "milk";
 // console.log(drink);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (16)
+// // // // // // // // // // // //
+
+// and or operator
+
+// let firstName = "Ali raza";
+// let age = 22;
+
+// if (firstName[0] === "A") {
+//   console.log("your name  start with A");
+// }
+
+// if (age > 18) {
+//   console.log("you are above 18");
+// }
+
+// if (firstName[0] === "A" || age > 18) {
+//   console.log("inside if");
+// } else {
+//   console.log("inside else");
+// }
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (17)
+// // // // // // // // // // // //
+
+// nested if else
+
+// Winning number 19
+
+// 19 your guess is right
+// 17 too low
+// 20 too high
+
+// let WinningNumber = 19;
+// let userGuess = +prompt("Guess a number");
+
+// if (userGuess === WinningNumber) {
+//   console.log("your guess is right");
+// } else {
+//   if (userGuess < WinningNumber) {
+//     console.log("to low");
+//   } else {
+//     console.log("to high");
+//   }
+// }

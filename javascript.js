@@ -355,3 +355,165 @@
 //     console.log("to high");
 //   }
 // }
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (18)
+// // // // // // // // // // // //
+
+// if
+// else if
+// else if
+// else if
+// else
+
+// let tempInDegree = 30;
+
+// if (tempInDegree < 0) {
+//   console.log("extremely cold outside");
+// } else if (tempInDegree < 16) {
+//   console.log("it is cold outside");
+// } else if (tempInDegree < 25) {
+//   console.log("wheather is okay");
+// } else if (tempInDegree < 35) {
+//   console.log("lets go for swim");
+// } else if (tempInDegree < 45) {
+//   console.log("turn on AC");
+// } else {
+//   console.log("too hot");
+// }
+
+// let tempInDegree = 30;
+
+// if (tempInDegree > 40) {
+//   console.log("to hot");
+// } else if (tempInDegree > 30) {
+//   console.log("Lets go for swim");
+// } else if (tempInDegree > 20) {
+//   console.log("wheather is cool");
+// } else if (tempInDegree > 10) {
+//   console.log("it is very cold outside");
+// } else {
+//   console.log("extremely cold");
+// }
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (19)
+// // // // // // // // // // // //
+
+//   <----Switch Statement--->
+
+// let day = 3;
+// if (day === 0) {
+//   console.log("sunday");
+// } else if (day === 1) {
+//   console.log("Monday");
+// } else if (day === 2) {
+//   console.log("Tuesday");
+// } else if (day === 3) {
+//   console.log("Wednesdy");
+// } else if (day === 4) {
+//   console.log("Thursday");
+// } else if (day === 5) {
+//   console.log("Friday");
+// } else if (day === 6) {
+//   console.log("Saturday");
+// } else {
+//   console.log("Invalid Day");
+// }
+
+// Using Switch Statement:
+
+// let day = 0;
+
+// switch (day) {
+//   case 0:
+//     console.log("Sunday");
+//     break;
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   case 4:
+//     console.log("Thirsday");
+//     break;
+//   case 5:
+//     console.log("Friday");
+//     break;
+//   case 6:
+//     console.log("Saturday");
+//     break;
+//   default:
+//     console.log("Invalid Day");
+// }
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (20)
+// // // // // // // // // // // //
+
+// While Loop
+
+// let i = 0;
+
+// console.log(i);
+// i++;
+// console.log(i);
+// i++;
+// console.log(i);
+// i++;
+// console.log(i);
+// i++;
+// console.log(i);
+// i++;
+// console.log(i);
+
+// Using While Loop:
+
+// let i = 0;
+// while (i <= 9) {
+//   console.log(i);
+//   i++;
+// }
+// console.log(`current value of i is ${i}`);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (21)
+// // // // // // // // // // // //
+
+// While Loop example
+
+// let num = 10;
+// let total = 0;
+
+// total = total + 1;
+// total = total + 2;
+// total = total + 3;
+// total = total + 4;
+// total = total + 5;
+// total = total + 6;
+// total = total + 7;
+// total = total + 8;
+// total = total + 9;
+// total = total + 10;
+
+// console.log(total);
+
+// let num = 10;
+// let total = (num * (num + 1)) / 2;
+// console.log(total);
+
+// Using While loop:
+
+// let num = 100;
+// let total = 0;
+// let i = 0;
+
+// while (i <= 100) {
+//   total = total + i;
+//   i++;
+// }
+// console.log(total);

@@ -517,3 +517,100 @@
 //   i++;
 // }
 // console.log(total);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (22)
+// // // // // // // // // // // //
+
+// Intro to For Loop:
+// print 0 to 9
+
+// for (var i = 0; i <= 9; i++) {
+//   console.log(i);
+// }
+// console.log("value of i is", i);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (23)
+// // // // // // // // // // // //
+
+// for loop example
+
+// let total = 0;
+// let num = 100;
+// for (let i = 0; i <= num; i++) {
+//   total = total + i;
+// }
+// console.log(total);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (24)
+// // // // // // // // // // // //
+
+// (Break) keyword
+
+// (continue) keyword
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 4) {
+//     break;
+//   }
+//   console.log(i);
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 4) {
+//     continue;
+//   }
+//   console.log(i);
+// }
+// console.log("hello there");
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (25)
+// // // // // // // // // // // //
+
+// do while loop
+
+// let i = 0;
+// while (i <= 9) {
+//   i++;
+//   console.log(i);
+// }
+
+// let i = 0;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 9);
+// console.log("value of i is", i);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (25)
+// // // // // // // // // // // //
+
+// Intro to arrays
+// reference type
+// how to create arrays
+
+// Oder collection of items
+
+// let fruits = ["apple", "grapes", "banana"];
+// let numbers = [1, 2, 3, 4, 5, 5];
+// let mixed = [1, 2, 3.2, null, undefined];
+// console.log(fruits);
+// console.log(numbers);
+// console.log(mixed);
+
+// let fruits = ["apple", "grapes", "banana"];
+// console.log(fruits);
+// fruits[1] = "Mango";
+// console.log(fruits);
+
+// let fruits = ["apple", "grapes", "banana"];
+// console.log(typeof fruits);
+// console.log(Array.isArray(fruits));
+
+// let obj = {};
+// console.log(typeof obj);
+// console.log(Array.isArray(obj));

@@ -586,7 +586,7 @@
 // console.log("value of i is", i);
 
 // // // // // // // // // // // //
-// // // // // // // // // // // //===============> (25)
+// // // // // // // // // // // //===============> (26)
 // // // // // // // // // // // //
 
 // Intro to arrays
@@ -614,3 +614,58 @@
 // let obj = {};
 // console.log(typeof obj);
 // console.log(Array.isArray(obj));
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (27)
+// // // // // // // // // // // //
+
+// array push
+
+// array pop
+
+// let fruits = ["Apple", "Mango", "Grapes"];
+// console.log(fruits);
+// Push
+
+// fruits.push("Banana", "Orange");
+// console.log(fruits);
+
+// pop
+// let poppedFruit = fruits.pop();
+// console.log(fruits);
+// console.log("popped fruid is", poppedFruit);
+
+// Unshift
+// fruits.unshift("pineapple", "stabary");
+// console.log(fruits);
+
+// shift
+// let removedFruits = fruits.shift();
+// console.log(fruits);
+// console.log("removed fruits is", removedFruits);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (28)
+// // // // // // // // // // // //
+
+// primitive vs reference data type
+
+// let num1 = 6;
+// let num2 = num1;
+// console.log("value of num1 is", num1);
+// console.log("value of num2 is", num2);
+// num2++;
+// console.log("after incrementing num2");
+// console.log("value of num1 is", num1);
+// console.log("value of num2 is", num2);
+
+// reference types
+// array
+// let array1 = ["item1", "item2"];
+// let array2 = array1;
+// console.log("array1", array1);
+// console.log("array2", array2);
+// array1.push("item3");
+// console.log("after pushing element to array 1");
+// console.log("array1", array1);
+// console.log("array2", array2);

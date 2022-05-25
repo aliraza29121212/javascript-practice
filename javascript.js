@@ -669,3 +669,46 @@
 // console.log("after pushing element to array 1");
 // console.log("array1", array1);
 // console.log("array2", array2);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (29)
+// // // // // // // // // // // //
+
+// how to clone array
+// hoe to concatenate two array
+
+// let array1 = ["item1", "item2"];
+// let array2 = ["item1", "item2", "item3"];
+// let array2 = array1.slice(0);
+// let array2 = [].concat(array1);
+
+// new way
+// spread operator
+
+// let oneMoreArray = ["item3", "item4"];
+// let array2 = [...array1, ...oneMoreArray];
+// array1.push("item3");
+// console.log(array1 === array2);
+// console.log(array1);
+// console.log(array2);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (30)
+// // // // // // // // // // // //
+
+// for loop on array
+
+let fruits = ["apple", "mango", "grapes", "banana"];
+
+// for (let i = 0; 1 <= 9; i++) {
+//   console.log(i);
+// }
+
+// console.log(fruits.length);
+// console.log(fruits[fruits.length - 1]);
+
+// let fruits2 = [];
+// for (let i = 0; i < fruits.length; i++) {
+//   fruits2.push(fruits[i].toLocaleUpperCase());
+// }
+// console.log(fruits2);

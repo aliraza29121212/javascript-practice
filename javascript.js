@@ -698,7 +698,7 @@
 
 // for loop on array
 
-let fruits = ["apple", "mango", "grapes", "banana"];
+// let fruits = ["apple", "mango", "grapes", "banana"];
 
 // for (let i = 0; 1 <= 9; i++) {
 //   console.log(i);
@@ -710,5 +710,59 @@ let fruits = ["apple", "mango", "grapes", "banana"];
 // let fruits2 = [];
 // for (let i = 0; i < fruits.length; i++) {
 //   fruits2.push(fruits[i].toLocaleUpperCase());
+// }
+// console.log(fruits2);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (31)
+// // // // // // // // // // // //
+
+// use const for creating array
+// heap memory --> (Stored) ["apple","mango"]
+
+// const fruits = ["apple", "mango"];
+// fruits.push("banana");
+// console.log(fruits);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (32)
+// // // // // // // // // // // //
+
+// While loop in array
+
+// const fruits = ["apple", "mango", "grapes"];
+// const fruits2 = [];
+// let i = 0;
+// while (i < fruits.length) {
+//   fruits2.push(fruits[i].toUpperCase());
+//   i++;
+// }
+// console.log(fruits2);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (33)
+// // // // // // // // // // // //
+
+// for of loop in array
+
+// const fruits = ["apple", "mango", "grapes", "banana"];
+// fruits2 = [];
+// console.log(fruits);
+
+// for (let fruit of fruits) {
+//   fruits2.push(fruit.toUpperCase());
+// }
+// console.log(fruits2);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (34)
+// // // // // // // // // // // //
+
+// for in loop in array
+
+// const fruits = ["apple", "mango", "grapes", "banana"];
+// const fruits2 = [];
+// for (let index in fruits) {
+//   fruits2.push(fruits[index].toUpperCase());
 // }
 // console.log(fruits2);

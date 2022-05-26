@@ -766,3 +766,23 @@
 //   fruits2.push(fruits[index].toUpperCase());
 // }
 // console.log(fruits2);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (35)
+// // // // // // // // // // // //
+
+// array destructing
+
+// const myArray = ["value1", "value2", "value3", "value4"];
+
+// let myvar1 = myArray[0];
+// let myvar2 = myArray[1];
+// console.log("value of myvar1", myvar1);
+// console.log("value of myvar2", myvar2);
+
+// let [myVar1, myVar2, ...myNewArray] = myArray;
+// myVar1 = "Value Change kr di ha mny";
+// let myNewArray = myArray.slice(2);
+// console.log("value of myvar1", myVar1);
+// console.log("value of myvar2", myVar2);
+// console.log(myNewArray);

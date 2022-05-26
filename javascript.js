@@ -833,3 +833,35 @@
 // console.log(person["person hobbies"]);
 // person[key] = "aliraza291212@gmail.com";
 // console.log(person);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (38)
+// // // // // // // // // // // //
+
+// how to iterate object
+
+const person = {
+  name: "Ali",
+  age: 21,
+  gender: "male",
+};
+
+// for in loop
+// object.key
+
+// for (let key in person) {
+//   console.log(person[key]);
+//   console.log(`${key}:${person[key]}`);
+//   console.log(key, " : ", person[key]);
+// }
+
+// Object.keys
+
+// console.log(typeof Object.keys(person));
+// const val = Array.isArray(Object.keys(person));
+// console.log(val);
+
+// for of loop
+// for (let key of Object.keys(person)) {
+//   console.log(person[key]);
+// }

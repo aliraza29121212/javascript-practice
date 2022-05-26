@@ -786,3 +786,50 @@
 // console.log("value of myvar1", myVar1);
 // console.log("value of myvar2", myVar2);
 // console.log(myNewArray);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (36)
+// // // // // // // // // // // //
+
+// Objects reference type haii!!
+// arrays are good but not sufficient
+// for real world data
+// object stored key value pairs
+// object don't have index
+
+// how to create object
+
+// const person = { name: "Ali Raza", age: "21" };
+// const person = {
+//   name: "AliRaza",
+//   age: 21,
+//   hobbies: ["guitar", "sleeping", "cricket"],
+// };
+// console.log(person);
+
+// how to access data from objects
+// console.log(person.name);
+// console.log(person.age);
+// console.log(person.hobbies);
+
+// how to add key value pairs to objects
+
+// person.gender = "male";
+// person["gender"] = "male"
+// console.log(person);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (37)
+// // // // // // // // // // // //
+
+// difference between dot and bracket notaion
+
+// const key = "email";
+// const person = {
+//   name: "Ali",
+//   age: 21,
+//   "person hobbies": ["guitar", "sleeping", "cricket"],
+// };
+// console.log(person["person hobbies"]);
+// person[key] = "aliraza291212@gmail.com";
+// console.log(person);

@@ -840,11 +840,11 @@
 
 // how to iterate object
 
-const person = {
-  name: "Ali",
-  age: 21,
-  gender: "male",
-};
+// const person = {
+//   name: "Ali",
+//   age: 21,
+//   gender: "male",
+// };
 
 // for in loop
 // object.key
@@ -865,3 +865,55 @@ const person = {
 // for (let key of Object.keys(person)) {
 //   console.log(person[key]);
 // }
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (39)
+// // // // // // // // // // // //
+
+// computed properties
+
+// const key1 = "objkey1";
+// const key2 = "objkey2";
+
+// const value1 = "myvalue1";
+// const value2 = "myvalue2";
+
+// const obj = {
+//   [key1]: value1,
+//   [key2]: value2,
+// };
+
+// const obj = {};
+// obj[value1] = key2;
+// obj[value2] = key1;
+
+// console.log(obj);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (40)
+// // // // // // // // // // // //
+
+// Spread operator
+
+// const array1 = [1, 2, 3];
+// const array2 = [5, 6, 7];
+
+// const newArray = [...array1, ...array2];
+// const newArray = [..."1233456677"];
+// console.log(newArray);
+
+// spread operator in object
+
+// const obj1 = {
+//   key1: "value1",
+//   key2: "value2",
+// };
+// const obj2 = {
+//   key3: "value3",
+//   key4: "value4",
+// };
+
+// const newObj = { ...obj1, ...obj2 };
+// const newObj = { ...obj1, ...obj2, key66: "value66" };
+
+// console.log(newObj);

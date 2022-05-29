@@ -917,3 +917,26 @@
 // const newObj = { ...obj1, ...obj2, key66: "value66" };
 
 // console.log(newObj);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (41)
+// // // // // // // // // // // //
+
+// object destructing
+
+// const band = {
+//   bandName: "led zepplein",
+//   famousSong: "Stairway to heaven",
+//   year: 1992,
+//   anotherFamousSong: "Kashmir",
+// };
+
+// const bandName = band.bandName;
+// const famousSong = band.famousSong;
+
+// console.log(bandName, famousSong);
+
+// let { bandName, famousSong, ...restprops } = band;
+// let { bandName: val1, famousSong: val2 } = band;
+
+// console.log(restprops);

@@ -979,3 +979,61 @@
 // console.log(user3gender);
 // console.log(userId);
 // console.log(usernum);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (44)
+// // // // // // // // // // // //
+
+// Function expression
+
+// function singHappyBirthday() {
+//   console.log("happy birthday to you .......");
+// }
+// singHappyBirthday();
+
+// const singHappyBirthday = function () {
+//   console.log("happy birthday to you .......");
+// };
+// singHappyBirthday();
+
+// function sumTwoNumbers(number1, number2) {
+//   return number1 + number2;
+// }
+
+// const returnedValue = sumTwoNumbers(4, 6);
+// console.log(returnedValue);
+
+// isEven
+// input : 1 number
+// output : true , false
+
+// function isEven(number) {
+//   if (number % 2 === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// function isEven(number) {
+//   return number % 2 === 0;
+// }
+
+// console.log(isEven(8));
+
+// function firstChar(anyString) {
+//   return anyString[0];
+// }
+// console.log(firstChar("Ali"));
+
+// function findTarget(array, target) {
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] === target) {
+//       return i;
+//     }
+//   }
+//   return -1;
+// }
+
+// const myArray = [1, 3, 4, 5, 6, 87];
+// const ans = findTarget(myArray, 4);
+// console.log(ans);

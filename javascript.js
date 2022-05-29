@@ -940,3 +940,42 @@
 // let { bandName: val1, famousSong: val2 } = band;
 
 // console.log(restprops);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (42)
+// // // // // // // // // // // //
+
+// objeccts inside array
+// very useful in real world applications
+
+// const users = [
+//   { userId: 1, firstName: "Ali", gender: "male" },
+//   { userId: 2, firstName: "Hamza", gender: "male" },
+//   { userId: 3, firstName: "Hammas", gender: "male" },
+// ];
+
+// for (let user of users) {
+//   console.log(user);
+// }
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (43)
+// // // // // // // // // // // //
+
+// Nested destructuring
+
+// const users = [
+//   { userId: 1, firstName: "Ali", gender: "male" },
+//   { userId: 2, firstName: "Hamza", gender: "male" },
+//   { userId: 3, firstName: "Hammas", gender: "male" },
+// ];
+
+// const [
+//   { firstName: user1firstName, userId },
+//   ,
+//   { gender: user3gender, userId: usernum },
+// ] = users;
+// console.log(user1firstName);
+// console.log(user3gender);
+// console.log(userId);
+// console.log(usernum);

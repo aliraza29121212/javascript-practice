@@ -1037,3 +1037,37 @@
 // const myArray = [1, 3, 4, 5, 6, 87];
 // const ans = findTarget(myArray, 4);
 // console.log(ans);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (46)
+// // // // // // // // // // // //
+
+// Arrow functions
+
+// const singHappyBirthday = function(){
+//     console.log("Happy birthday to you!!");
+// }
+
+// const singHappyBirthday = () => {
+//   console.log("Happy birthday to you!!");
+// };
+// singHappyBirthday();
+
+// const sumThreeNumbers = function (number1, number2, number3) {
+//   return number1 + number2 + number3;
+// };
+
+// const sumThreeNumbers = (number1, number2, number3) => {
+//   return number1 + number2 + number3;
+// };
+// const ans = sumThreeNumbers(2, 4, 7);
+// console.log(ans);
+
+// const isEven = function (number) {
+//   return number % 2 === 0;
+// };
+
+const isEven = (number) => {
+  return number % 2 === 0;
+};
+console.log(isEven(7));

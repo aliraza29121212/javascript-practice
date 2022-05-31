@@ -1135,3 +1135,69 @@
 // }
 
 // app();
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (49)
+// // // // // // // // // // // //
+
+//lexical scope
+
+// const myvar = "value1";
+
+// function myApp() {
+//   function myFanc() {
+//      const myvar = "value2";
+
+//     const myFanc2 = () => {
+//       console.log("inside myfunc", myvar);
+//     };
+//     myFanc2();
+//   }
+
+//   console.log(myvar);
+//   myFanc();
+// }
+
+// myApp();
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (50)
+// // // // // // // // // // // //
+
+// block scope vs function scope
+
+// let and const are block scope
+// var is a function scope
+
+// {
+//   const firstName = "Ali";
+//   console.log(firstName);
+// }
+
+// {
+//   const firstName = "Hammas";
+//   console.log("this is", firstName);
+// }
+
+// const firstName = "Hamza";
+// console.log("this is", firstName);
+
+// if (true) {
+//   var firstname = "Ali";
+//   console.log(firstname);
+// }
+// console.log(firstname);
+
+// function myApp() {
+//   if (true) {
+//     var firstName = "Ali";
+//     console.log(firstName);
+//   }
+
+//   if (true) {
+//     console.log(firstName);
+//   }
+//   console.log(firstName);
+// }
+
+// myApp();

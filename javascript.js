@@ -1067,7 +1067,71 @@
 //   return number % 2 === 0;
 // };
 
-const isEven = (number) => {
-  return number % 2 === 0;
-};
-console.log(isEven(7));
+// const isEven = (number) => {
+//   return number % 2 === 0;
+// };
+// console.log(isEven(7));
+
+// const firstChar = function (anyString) {
+//   return anyString[0];
+// };
+
+// const firstChar = (anyString) => {
+//   return anyString[0];
+// };
+// console.log(firstChar("Hammas"));
+
+// const findTarget = (array, target) => {
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] === target) {
+//       return i;
+//     }
+//   }
+//   return -1;
+// };
+
+// const myArray = [1, 3, 4, 5, 6, 87];
+// const ans = findTarget(myArray, 4);
+// console.log(ans);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (47)
+// // // // // // // // // // // //
+
+// Hoisting
+
+// hello();
+// function hello() {
+//   console.log("Hello World");
+// }
+// hello();
+
+// console.log(hello);
+// const hello = "hello world";
+// console.log(hello);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (48)
+// // // // // // // // // // // //
+
+// Function inside function
+
+// function app() {
+//   const myFunc = () => {
+//     console.log("Hello from myfunc");
+//   };
+
+//   const addTwo = (num1, num2) => {
+//     return num1 + num2;
+//   };
+
+//   const mul = (num1, num2) => num1 * num2;
+
+//   console.log("inside app");
+
+//   myFunc();
+//   console.log(addTwo(4, 6));
+//   console.log(mul(4, 6));
+// }
+
+// app();

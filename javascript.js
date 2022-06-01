@@ -744,14 +744,14 @@
 // // // // // // // // // // // //
 
 // for of loop in array
-
-// const fruits = ["apple", "mango", "grapes", "banana"];
+//const fruits = ["apple", "mango", "grapes", "banana"];
 // fruits2 = [];
 // console.log(fruits);
 
-// for (let fruit of fruits) {
-//   fruits2.push(fruit.toUpperCase());
-// }
+//for (let fruit of fruits) {
+//fruits2.push(fruit.toUpperCase());
+//console.log(fruit);
+//}
 // console.log(fruits2);
 
 // // // // // // // // // // // //
@@ -1201,3 +1201,106 @@
 // }
 
 // myApp();
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (51)
+// // // // // // // // // // // //
+
+// default parameters
+
+// function addTwo(a, b) {
+//   if (typeof b === "undefined") {
+//     b = 0;
+//   }
+//   return a + b;
+// }
+
+// function addTwo(a, b = 0) {
+//   return a + b;
+// }
+
+// const ans = addTwo(8);
+// console.log(ans);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (52)
+// // // // // // // // // // // //
+
+// rest parameters
+
+// function myFunc(a, b, ...c) {
+//   console.log(`a is ${a}`);
+//   console.log(`b is ${b}`);
+//   console.log(`b is`, c);
+// }
+
+// myFunc(3, 5, 7, 2, 8, 2, 8, 3);
+
+// function addAll(...numbers) {
+//   let total = 0;
+//   for (let number of numbers) {
+//     total = total + number;
+//   }
+//   return total;
+// }
+// const ans = addAll(2, 4, 6, 8, 9);
+// console.log(ans);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (53)
+// // // // // // // // // // // //
+
+// Param destructuring
+
+// object
+// react
+
+// const person = {
+//   firstName: "Ali",
+//   gender: "male",
+// };
+
+// function printDetails(obj) {
+//   console.log(obj.firstName);
+//   console.log(obj.gender);
+// }
+
+// function printDetails({ firstName, gender }) {
+//   console.log(firstName);
+//   console.log(gender);
+// }
+
+// printDetails(person);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (54)
+// // // // // // // // // // // //
+
+// callback function
+
+// function myFanc2(name) {
+//   console.log("inside my func 2");
+//   console.log(`your name is ${name}`);
+// }
+
+// function myFanc(callback) {
+//   console.log("Hello there");
+//   callback("Ali");
+// }
+// myFanc(myFanc2);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (55)
+// // // // // // // // // // // //
+
+// function returning function
+
+// function myFanc() {
+//   function hello() {
+//     return "hello world";
+//   }
+//   return hello;
+// }
+
+// const ans = myFanc();
+// console.log(ans());

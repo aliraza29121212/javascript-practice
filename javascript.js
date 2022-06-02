@@ -1304,3 +1304,58 @@
 
 // const ans = myFanc();
 // console.log(ans());
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (56)
+// // // // // // // // // // // //
+
+// important array methods
+
+// const numbers = [4, 7, 2, 9];
+
+// function multiplyBy2(number, index) {
+//   console.log(`index is ${index} number is ${number}`);
+//   //   console.log(`${number}*2 = ${number * 2}`);
+// }
+
+// for (let i = 0; i < numbers.length; i++) {
+//   multiplyBy2(numbers[i], i);
+// }
+
+// forEach
+
+// const numbers = [4, 7, 2, 9];
+
+// function myFunc(number, index) {
+//   console.log(`index is ${index} number is ${number}`);
+// }
+
+// numbers.forEach(function (number, index) {
+//   console.log(`index is ${index} number is ${number}`);
+// });
+
+// numbers.forEach(function (number, index) {
+//   console.log(number * 3, index);
+// });
+
+// const users = [
+//   { firstname: "Aliraza", age: 21 },
+//   { firstname: "Hammas", age: 20 },
+//   { firstname: "Hamza", age: 19 },
+//   { firstname: "Ramzan", age: 22 },
+// ];
+
+// users.forEach(function (user) {
+//   console.log(user.firstname);
+// });
+// users.forEach((user)=>{
+//     console.log(user.firstname);
+// })
+
+// for (let user of users) {
+//   console.log(user.firstname);
+// }
+
+// map
+// filter
+// reduce

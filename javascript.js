@@ -1359,3 +1359,47 @@
 // map
 // filter
 // reduce
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (57)
+// // // // // // // // // // // //
+
+// map method
+
+// const numbers = [3, 4, 6, 8, 2];
+
+// const square = function (number) {
+//   return number * number;
+// };
+
+//inside map
+// const squareNumber = numbers.map((number, index) => {
+//   return `index: ${index}, ${number * number}`;
+// });
+// console.log(squareNumber);
+
+// const users = [
+//   { firstname: "Aliraza", age: 21 },
+//   { firstname: "Hammas", age: 20 },
+//   { firstname: "Hamza", age: 19 },
+//   { firstname: "Ramzan", age: 22 },
+// ];
+
+// const userName = users.map((user) => {
+//   return user.firstname;
+// });
+// console.log(userName);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (58)
+// // // // // // // // // // // //
+
+// filter method
+// const numbers = [1, 4, 6, 4, 2, 87, 9, 3, 6, 7];
+
+// const isEven = function (number) {
+//   return number % 2 === 0;
+// };
+
+// const evenNumbers = numbers.filter(isEven);
+// console.log(evenNumbers);

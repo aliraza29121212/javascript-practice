@@ -1403,3 +1403,62 @@
 
 // const evenNumbers = numbers.filter(isEven);
 // console.log(evenNumbers);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (59)
+// // // // // // // // // // // //
+
+// Reduce
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// // aim : sum of All the number in array
+
+// const sum = numbers.reduce((accumulator, currentVlaue) => {
+//   return accumulator + currentVlaue;
+// }, 100);
+
+// console.log(sum);
+
+// accumulator , currentValue , return
+//  1               2              3
+//  3               3              6
+//  6               4              10
+// 10               5              15
+// 15               6              21
+
+// const userCart = [
+//   { productId: 1, productName: "mobile", price: 12000 },
+//   { productId: 2, productName: "laptop", price: 22000 },
+//   { productId: 2, productName: "tv", price: 15000 },
+// ];
+// const totalAmount = userCart.reduce((totalPrice, currentproduct) => {
+//   return totalPrice + currentproduct.price;
+// }, 0);
+// console.log(totalAmount);
+
+// totalprice          currentValue         return
+// 0                      {}              12000
+// 12000                 22000            34000
+// 34000                 15000            49000
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (60)
+// // // // // // // // // // // //
+
+// sort method
+// ASCII table
+// Char : ASCII value
+
+// sorting
+
+// 5,9,1200,400,300
+// 5,9,400,1200,300 (expected)
+
+// const numbers = [5, 9, 1200, 400, 300];
+// numbers.sort();
+// console.log(numbers);
+
+const userName = ["Ali", "Hammas", "ramzan", "hamza"];
+userName.sort();
+console.log(userName);

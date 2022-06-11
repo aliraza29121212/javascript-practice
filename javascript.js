@@ -1459,6 +1459,117 @@
 // numbers.sort();
 // console.log(numbers);
 
-const userName = ["Ali", "Hammas", "ramzan", "hamza"];
-userName.sort();
-console.log(userName);
+// const userName = ["Ali", "Hammas", "ramzan", "hamza"];
+// userName.sort();
+// console.log(userName);
+
+// const numbers =[5,9,1200,410,3000];
+// numbers.sort((a,b)=>{
+//     return b-a;
+// })
+// console.log(numbers)
+
+// Price low to high
+
+// const products = [
+//   { productId: 1, productName: "p1", price: 300 },
+//   { productId: 1, productName: "p2", price: 300 },
+//   { productId: 1, productName: "p3", price: 3000 },
+//   { productId: 1, productName: "p4", price: 200 },
+//   { productId: 1, productName: "p5", price: 8800 },
+//   { productId: 1, productName: "p6", price: 3400 },
+// ];
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (61)
+// // // // // // // // // // // //
+
+// low to high
+// products.sort((a, b) => {
+//   return a.price - b.price;
+// });
+
+// const lowToHigh = products.slice(0).sort((a, b) => {
+//   return a.price - b.price;
+// });
+// console.log(lowToHigh);
+
+// Find method
+
+// const myArray = ["Helo", "cat", "dog", "lion"];
+
+// // function isLength3(string) {
+// //   return string.length === 3;
+// // }
+
+// const ans = myArray.find((string) => string.length === 3);
+// console.log(ans);
+
+// const users = [
+//   { userId: 1, userName: "harshit" },
+//   { userId: 2, userName: "Ali" },
+//   { userId: 3, userName: "Hamza" },
+//   { userId: 4, userName: "Hammas" },
+//   { userId: 5, userName: "ramzan" },
+// ];
+
+// const myUser = users.find((user) => {
+//   return user.userId === 3;
+// });
+// console.log(myUser);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (62)
+// // // // // // // // // // // //
+
+// Every method
+
+// const numbers = [2, 4, 6, 9, 10];
+
+// const ans = numbers.every((number) => number % 2 === 0);
+// console.log(ans);
+
+// const userCart = [
+//   { product: 1, productName: "mobile", price: 1200 },
+//   { product: 2, productName: "mobile", price: 3200 },
+//   { product: 3, productName: "mobile", price: 5200 },
+// ];
+
+// const ans = userCart.every((cartItem) => cartItem.price < 30000);
+// console.log(ans);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (63)
+// // // // // // // // // // // //
+
+// Some Method
+
+// const numbers = [3, 5, 11, 9];
+
+// kya ek bi number esa hai jo even ha
+// true
+
+// const ans = numbers.some((number) => number % 2 === 0);
+// console.log(ans);
+
+// const userCart = [
+//   { product: 1, productName: "mobile", price: 1200 },
+//   { product: 2, productName: "mobile", price: 3200 },
+//   { product: 3, productName: "mobile", price: 5200 },
+// ];
+// const ans = userCart.some((cartItem) => cartItem.price > 100);
+// console.log(ans);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (64)
+// // // // // // // // // // // //
+
+// Fill method
+// value , start , end
+
+// const myArray = new Array(10).fill(0);
+// console.log(myArray);
+
+// const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// myArray.fill(0, 2, 5);
+// console.log(myArray);

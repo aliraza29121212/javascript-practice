@@ -1664,3 +1664,153 @@
 //   length++;
 // }
 // console.log(length);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (68)
+// // // // // // // // // // // //
+
+// Maps
+// map is an iterable
+
+// store data in ordered fashion
+
+// Store key pair value (like object)
+// duplicate keys are not allowed like objects
+
+// different between maps and object
+
+// object can have string or symbol as key
+
+// in maps you can use anything as key
+// like arrray, number, string
+
+// Object literal
+// key -> String
+// key -> symbol
+// const person = {
+//   firstName: "Ali" ,
+//   age : 21,
+//   1 : "one"
+// }
+
+// ket value Pair
+
+// const person = new Map();
+// person.set("firstName", "Ali");
+// person.set("age", 21);
+// person.set(1, "one");
+
+// console.log(person);
+// console.log(person.get(1));
+
+// for (let key of person.keys()) {
+//   console.log(key);
+// }
+
+// for in loop
+// for (let [key, value] of person) {
+//   console.log(key, value);
+// }
+
+// const person1 = {
+//   id: 1,
+//   firstname: "Aliraza",
+// };
+// const person2 = {
+//   id: 2,
+//   firstname: "hamza",
+// };
+// const extraInfo = new Map();
+// extraInfo.set(person1, { age: 8, gender: "male" });
+// extraInfo.set(person2, { age: 9, gender: "female" });
+
+// console.log(person1.id);
+// console.log(extraInfo.get(person1).gender);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (69)
+// // // // // // // // // // // //
+
+// Clone using Object.assign
+
+// memory
+
+// const obj = {
+//   key1: "value1",
+//   key2: "value2",
+// };
+
+// const obj2 = { ...obj };
+// const obj2 = Object.assign({}, obj);
+// obj.key3 = "value3";
+// console.log(obj);
+// console.log(obj2);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (70)
+// // // // // // // // // // // //
+
+// Optional chaining
+
+// const user = {
+//   firstName: "harshit",
+//   address: { houseNumber: "1234" },
+// };
+
+// let user;
+// console.log(user?.firstName);
+// console.log(user?.address?.houseNumber);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (71)
+// // // // // // // // // // // //
+
+// method
+// function inside the object
+
+// const person = {
+//   firstName: "mohit",
+//   age: 8,
+//   about: function () {
+//     console.log(
+//       `person name is ${this.firstName} and person age is ${this.age}`
+//     );
+//   },
+// };
+
+// person.about();
+
+// function personInfo() {
+//   console.log(`person name is ${this.firstName} and person age is ${this.age}`);
+// }
+
+// const person1 = {
+//   firstName: "Ali",
+//   age: 8,
+//   about: personInfo,
+// };
+// const person2 = {
+//   firstName: "Hammas",
+//   age: 18,
+//   about: personInfo,
+// };
+// const person3 = {
+//   firstName: "Hamza",
+//   age: 28,
+//   about: personInfo,
+// };
+
+// person1.about();
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (72)
+// // // // // // // // // // // //
+
+// console.log(window);
+
+// ("Use strict");
+// function myFunc() {
+//   console.log(this);
+// }
+
+// myFunc();

@@ -1573,3 +1573,94 @@
 // const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // myArray.fill(0, 2, 5);
 // console.log(myArray);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (65)
+// // // // // // // // // // // //
+
+// splice method
+
+// Start, delete , insert
+
+// const myArray = ["item1", "item2", "item3"];
+
+// delete
+// const deletedItem = myArray.splice(1, 1);
+// console.log("deleted item", deletedItem);
+
+// insert
+// myArray.splice(1, 0, "inserted item");
+// console.log(myArray);
+
+// insert and delete
+// myArray.splice(1, 2, "inserted item1", "inserted itme2");
+// console.log(myArray);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (66)
+// // // // // // // // // // // //
+
+// Iterables
+// jispe hum for of loop laga sakein
+// String , array are iterable
+
+// const firstName = "Harshit";
+// for (let char of firstName) {
+//   console.log(char);
+// }
+
+// const items = ["item1", "item2", "itme3"];
+// for (let item of items) {
+//   console.log(item);
+// }
+
+// array like object
+// jinke pas length property hoti hai
+// aur jisko hum index se access har sakte hai
+// example :- string
+
+// const firstName = "Ali";
+// console.log(firstName.length);
+// console.log(firstName[1]);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (67)
+// // // // // // // // // // // //
+
+// Sets (it is iterable)
+// store data
+// sets also have its own method
+// No index-based access
+// Order is not guranted
+// unique items only (no duplicates allowd)
+
+// const items = ["item1", "item2", "itme3"];
+// const numbers = new Set();
+// numbers.add(1);
+// numbers.add(2);
+// numbers.add(3);
+// numbers.add(4);
+// numbers.add(5);
+// numbers.add(6);
+// numbers.add(items);
+
+// if (numbers.has(1)) {
+//   console.log("1 is present");
+// } else {
+//   console.log("1 is not present");
+// }
+// console.log(numbers);
+
+// for (let number of numbers) {
+//   console.log(number);
+// }
+
+// const myArray = [1, 2, 2, 3, 3, 4, 5, 5, 6];
+// const uniqueElements = new Set(myArray);
+// console.log(uniqueElements);
+
+// let length = 0;
+// for (let element of uniqueElements) {
+//   length++;
+// }
+// console.log(length);

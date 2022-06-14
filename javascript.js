@@ -1814,3 +1814,84 @@
 // }
 
 // myFunc();
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (73)
+// // // // // // // // // // // //
+
+// function about(hobby, favmusc) {
+//   console.log(this.firstName, this.age, hobby, favmusc);
+// }
+
+// const user1 = {
+//   firstName: "harshit",
+//   age: 9,
+// };
+
+// const user2 = {
+//   firstName: "mohit",
+//   age: "8",
+// };
+
+// about.call(user2, "Guitar", "moazrt");
+// about.apply(user1,[ "Guitar", "moazrt"]);
+// const func = about.bind(user2, "Guitar", "moazrt");
+// func();
+
+// don't do this mistake
+
+// const user1 = {
+//   firstName: "harshit",
+//   age: 8,
+//   about: function () {
+//     console.log(this.firstName, this.age);
+//   },
+// };
+
+// user.about();
+// const myFunc = user1.about.bind(user1);
+// myFunc();
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (74)
+// // // // // // // // // // // //
+
+// Arrow Function
+
+// const user1 = {
+//   firstName: "harshit",
+//   age: 8,
+//   about: () => {
+//     console.log(this.firstName, this.age);
+//   },
+// };
+
+// user1.about(user1);
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (76)
+// // // // // // // // // // // //
+
+// const user1 = {
+//     firstName: "harshit",
+//     age: 8,
+//     about: () => {
+//       console.log(this.firstName, this.age);
+//     },
+//   };
+
+//   user1.about(user1);
+
+// const user1 = {
+//   firstName: "harshit",
+//   age: 8,
+//   about() {
+//     console.log(this.firstName, this.age);
+//   },
+// };
+
+// user1.about();
+
+// // // // // // // // // // // //
+// // // // // // // // // // // //===============> (77)
+// // // // // // // // // // // //
